@@ -357,8 +357,6 @@ plot_distributions(train, "Basic_Demos-Sex")
 #### Male participants have a higher SII score than women
 
 # %%
-plot_distributions(train, "Basic_Demos-Sex")
-
 #### Distribution by season
 plot_distributions(train, "CGAS-Season")
 
