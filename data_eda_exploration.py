@@ -410,3 +410,5 @@ average_distribution_by_buckets(train, "Physical-Waist_Circumference", 4)
 
 # %%
 train[train["Physical-Weight"] >= 10].sort_values("Physical-Weight")
+
+# %%
