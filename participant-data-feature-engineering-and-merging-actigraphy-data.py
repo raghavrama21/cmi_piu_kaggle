@@ -376,4 +376,7 @@ def prepare_and_encode_categorical(train, test):
 train, test = prepare_and_encode_categorical(train, test)
 
 # %%
-train
+train.to_csv(r"train_final.csv", index=False)
+test.to_csv(r"test_final.csv", index=False)
+
+# %%
